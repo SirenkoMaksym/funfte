@@ -16,7 +16,7 @@ public class DataProviders {
     @DataProvider(name = "ebayData")
     public Iterator<Object[]> addNewUserFromCsv() throws IOException {
         List<Object[]> list = new ArrayList<>();
-        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/user.csv")));
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/user1.csv")));
         String line = reader.readLine();
         reader.readLine();
         while (line != null) {

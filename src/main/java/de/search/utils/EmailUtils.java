@@ -50,7 +50,7 @@ public class EmailUtils {
 
             // Отправка сообщения
             Transport.send(message);
-            System.out.println("Message sent successfully.");
+            System.out.println("Message sent successfully!");
         } catch (MessagingException mex) {
             mex.printStackTrace();
         }
